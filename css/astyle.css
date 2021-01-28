@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+	FILE: astyle.css
+	AUTHOR: Bob Trapp
+	DESCRIPTION:
+		This file only exists to demonstrate how to import a CSS file into an
+		HTML page and to provide some rudimentary styling to that page.  As a 
+		result of this, there are no guarantees about the aesthetic properties
+		of the web page described.
+		
+	NOTES:
+		The following notes may be helpful for you later, either as a reminder
+		of the component to use or the component to look up online.
+		
+	ID:  If you assigned an ID to an element, you can reference it in the 
+		stylesheet by using the pound sign and the ID.  For example, if there
+		is an element with the ID of "puppy" it can be referenced as #puppy.
+		
+	CLASS: If you ascribed a class to one or more elements, you can reference 
+		those elements with a leading period.  For example, if you have a class 
+		defined as "pets" you would reference that class with .pets
+		
+	MARGIN: Margins set the amount of space outside of the border (i.e.: between
+		elements.)
+		
+	PADDING: Padding sets the space along the inside of the border and the 
+		elements contained within.
+
+*/
+body {
+	background-color: #ffffff;
+	margin: auto; /* center in the page */
+}
+
+header, nav, section, footer {
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #448844; 
+	margin: 15px; 
+	padding: 5px;
+	box-shadow: 5px 5px 3px #408440;
+}
+
+header {
+	color: #ffffff;
+	background-color: #004400;
+}
+
+
+header h1 {
+	font-style: italic;
+	padding-left: 20px;
+}
+
+footer {
+	text-align: center;
+}
+
+nav {
+	background-color: #aaffaa;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0; 
+	padding: 3px;
+}
+
+nav ul li {
+	display: inline; 
+	margin: 5px;
+	padding: 5px;
+	background-color: #aaffaa;
+}
+
+nav ul li a:link {
+	color: #004400;
+	background-color: #aaffaa;
+	border-radius: 5px;
+	border: 1px solid #aaffaa;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+nav ul li a:visited {
+	color: #004400;
+	background-color: #aaffaa;
+	border-radius: 5px;
+	border: 1px solid #aaffaa;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+nav ul li a:hover {
+	color: #ddffdd;
+	background-color: #008800;
+	border-radius: 5px;
+	border: 1px solid #008800;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+nav ul li a:active {
+	color: #004400;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+#copyright {
+	font-weight: bold;
+}
+
+/*
+	Form-related styling here
+*/
+fieldset {
+	border-radius: 5px;
+	background: linear-gradient(to top, #ddffdd 5%, #ffffff 100%);
+	max-width: 500px;
+	margin: 35px;
+}
+
+legend {
+	color: #004400;
+	font-weight: bold;
+}
+
+form input[type=submit] {
+	border-radius: 5px;
+	background: linear-gradient(to top, #88ff88 5%, #ddffdd 100%);
+}
+
+form label {
+	min-width: 10em;
+}
+
+
+/*
+	End of File
+*/
+
