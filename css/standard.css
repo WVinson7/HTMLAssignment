@@ -1,0 +1,60 @@
+/* the styles for the elements */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    margin: 10px;
+    font-family: sans-serif
+}
+
+/* The Styles for the Menu */
+div {
+    padding: 15px 0 15px 0;
+}
+
+
+/* Header */
+header {
+    border-radius: 25px;
+    background-color: midnightblue;
+    padding: 20px 20px 20px 20px;
+    color: white;
+}
+header h1{
+    padding-bottom: 20px;
+}
+section{
+    border-radius: 25px;
+    background-color: lightblue;
+    margin: 0 0 5px;
+    padding: 20px;
+}
+#colorChoice{
+    display: block;
+    padding: 10px 10px;
+}
+
+#formset{
+    display: block;
+    border: none;
+    padding: 20px 20px 0px 0px;
+}
+footer {
+    border-radius: 25px;
+    background-color: midnightblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    margin-bottom: 10px;
+}

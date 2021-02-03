@@ -1,0 +1,57 @@
+<!DOCTYPE html>                                                           
+<html lang="en">
+    
+<head>                                                                    
+    <meta charset="utf-8">                            
+    <title> Java Homework Page </title>                    
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/standard.css">   
+</head>
+
+<body>
+    <header>
+        <h1>A Form</h1>
+    </header>
+    <section>
+        <h2> Form Section </h2>
+        <form action="index.html" method="get" name="index" id="index">
+            <fieldset id="formset">                                                        
+                <label for="email">Email</label>
+                <br><input type="email" id="email" name="email"> <!-- I made this an email field instead of text -->
+                <br><br><label for="password">Password</label>
+                <br><input type="password" id="password" name="password">
+                <br><br><label for="language">Language</label>
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                </select>
+                <br><br>
+            </fieldset>
+            <fieldset id="colorChoice">
+                <legend>Color Choice</legend>
+                <label for="red">Red</label>
+                <input type="radio" id="red" name="color" value="red">
+                <label for="blue">Blue</label>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="yellow">Yellow</label>
+                <input type="radio" id="yellow" name="color" value="yellow">
+            </fieldset>
+                <label for="submit">&nbsp;</label>
+                <br><input type="submit" id="submit" value="Submit">
+                <label for="reset">&nbsp;</label>
+                <input type="reset" id="reset" value="Reset">
+        </form>
+        
+    </section>
+    <section>
+        <h2>Other Section</h2>
+        <img src="images/mario.png" alt="Mario Jumping" style="width:10%;height:10%">
+        <p>This is a link to a more styled version of this page:&nbsp;
+            <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs">Better Page</a></p>
+    </section>
+    <footer>
+        <p>Copyright &copy;2021</p>
+    </footer>
+</body>
+
